@@ -12,7 +12,8 @@ To stimulate and synthesis digital lock using Vivado.
 `Software Required:`
 vivado 2023.2 software.
 
-`Procedure:`
+`Procedure:`<br>
+
 STEP:1 Start the vivado software, Select and Name the New project.
 
 STEP:2 Select the device family, device, package and speed.
@@ -28,6 +29,7 @@ STEP:6 Click the simulation to simulate the program and give the inputs and veri
 STEP:7 compare the output with truth table.
 
 `PROGRAM`
+
 module lock_FSM(B0,B1,Reset,Clk,PASS,FAIL);
 input B0,B1,Reset,Clk;
 output reg PASS,reg FAIL;
